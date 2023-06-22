@@ -1,0 +1,63 @@
+name: t_dm_02_001
+description: An initial demographics module used for development of STAR.
+major_version: 0.0
+minor_version: 0.0
+status: Development
+keywords: demographics
+dependancies:
+- dplyr
+- tibble
+- tidyr
+- common
+- fmtr
+- reporter
+parameters:
+  column_labels:
+    name: column_labels
+    default:
+    - ARM A
+    - ARM B
+    - ARM C
+    - ARM D
+    data_type: character
+    input_type: text
+    label: Column Labels
+  block_vars:
+    name: block_vars
+    default:
+    - SEX
+    - ETHNIC
+    - RACE
+    - AGE
+    - AGEGR1
+    data_type: character
+    input_type: text
+    label: Variables
+  block_pages:
+    name: block_pages
+    default:
+    - 1.0
+    - 1.0
+    - 1.0
+    - 2.0
+    - 2.0
+    data_type: character
+    input_type: text
+    label: Page Assignments
+  title_vct:
+    name: title_vct
+    default: Table
+    data_type: character
+    input_type: text
+    label: Title Vector
+  footnote_vct:
+    name: footnote_vct
+    default: Footnote
+    data_type: character
+    input_type: text
+    label: Footnote Vector
+version: v0.0
+created_by: dbosa
+create_date: 2023-06-12 09:57:01
+local_path: ./t_dm_02_001
+remote_path: ''

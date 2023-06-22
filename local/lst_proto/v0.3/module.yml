@@ -1,0 +1,28 @@
+name: lst_proto
+description: An initial prototype listing.
+major_version: 0
+minor_version: 3.0
+type: Listing
+status: Release
+keywords:
+- listing
+- prototype
+dependancies: reporter
+parameters:
+  listingNum:
+    name: listingNum
+    default: '0.0'
+    data_type: character
+    input_type: text
+    label: Table Number
+  reportName:
+    name: reportName
+    default: listing1
+    data_type: character
+    input_type: text
+    label: Report File Name
+version: v0.3
+created_by: dbosa
+create_date: 2023-02-22 00:52:53
+local_path: ./lst_proto
+remote_path: C:/packages/Amgen/TestSTAR/remote/lst_proto

@@ -1,0 +1,26 @@
+name: fig_proto
+description: An initial prototype figure.
+major_version: 0
+minor_version: 1.0
+type: Figure
+status: Release
+keywords: prototype
+dependancies: reporter
+parameters:
+  figureNum:
+    name: figureNum
+    default: '0.0'
+    data_type: character
+    input_type: text
+    label: Table Number
+  reportName:
+    name: reportName
+    default: figure1
+    data_type: character
+    input_type: text
+    label: Report File Name
+version: v0.1
+created_by: dbosa
+create_date: 2023-03-22 22:49:39
+local_path: ./fig_proto
+remote_path: C:\packages\Amgen\TestSTAR\remote/fig_proto

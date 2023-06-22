@@ -1,0 +1,34 @@
+name: tbl_oncvis_demog1
+description: An initial oncvis demog table.
+major_version: 0
+minor_version: 0.0
+type: Table
+status: Release
+keywords:
+- table
+- oncvis
+dependancies: reporter
+parameters:
+  dataPath:
+    name: dataPath
+    default: ''
+    data_type: character
+    input_type: text
+    label: Input data path
+  adslFilter:
+    name: adslFilter
+    default: saffl == 'Y'
+    data_type: character
+    input_type: text
+    label: ADSL Filter string
+  outputPath:
+    name: outputPath
+    default: ''
+    data_type: character
+    input_type: text
+    label: Report output path
+version: v0.0
+created_by: dbosa
+create_date: 2023-02-27 21:23:42
+local_path: ./tbl_oncvis_demog1
+remote_path: C:/packages/Amgen/TestSTAR/remote/tbl_oncvis_demog1
